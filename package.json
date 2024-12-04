@@ -1,0 +1,21 @@
+{
+  "name": "ts-patch-typescript-5.7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node bin",
+    "prepare": "ts-patch install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@samchon/ts-patch": "^3.2.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "typia": "^7.0.1"
+  }
+}
