@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node bin",
-    "prepare": "ts-patch install"
+    "prepare": "ts-patch install && typia patch"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,6 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "typia": "^7.0.1"
+    "typia": "7.0.2-dev.20241204"
   }
 }
